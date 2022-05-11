@@ -19,7 +19,6 @@ let pares = (x) => {
 
 let raiz_impar = (x) => {
 
-   //resp = "Los numeros son :"
    let resp = "los numeros impares entero(s) de la raíz cuadrada del numero en cuestion son:";
 
    for (let i = 1; i <= x; i++) {
@@ -37,10 +36,6 @@ let raiz_impar = (x) => {
     return resp;
 
 }
-
-//let n = 16;
-//answer = raiz_impar(n);
-//console.log("odd numbers are: " + answer);
 
 module.exports={
     pares,
